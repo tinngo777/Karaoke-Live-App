@@ -1,0 +1,66 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*$py.class
+
+
+# Environment & IDE
+.env
+.venv/
+venv/
+ENV/
+env/
+.idea/
+.vscode/
+*.code-workspace
+
+
+# Streamlit cache & logs
+.streamlit/
+.streamlit/config.toml
+logs/
+*.log
+
+
+# Audio and media outputs
+output_audio/
+temp_chunk_*.wav
+converted_audio.wav
+instrumental.wav
+lyrics_word_timestamps.lrc
+*.mp3
+*.mp4
+*.wav
+*.mov
+*.flac
+*.m4a
+*.ogg
+
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+
+# Model and cache directories
+demucs/
+demucs_models/
+models/
+whisper/
+whisper_cache/
+hf_cache/
+.cache/
+__output__/
+checkpoints/
+runs/
+*.pt
+*.bin
+
+
+# System and OS files
+Thumbs.db
+desktop.ini
