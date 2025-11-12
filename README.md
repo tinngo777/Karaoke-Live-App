@@ -33,9 +33,9 @@ You can upload a song, and the app automatically separate the vocals, builds an 
 - Python 3.10.12
 - Streamlit - UI
 - OpenAI Whisper(via faster-whisper) - lyrics transcription
-- Demucs - source separation
+- Demucs - stems separation
 - PyTorch - GPU acceleration
-- ffmpeg - media processing
+- ffmpeg - media processing (handle video files)
 - librosa/soundfile/numpy - audio handling
 
 ## Tested Environment
