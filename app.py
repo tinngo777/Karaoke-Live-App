@@ -40,7 +40,9 @@ col1, col2 = st.columns(2)
 with col1:
     model_size = st.selectbox("Whisper Model Size", ["tiny", "base", "small", "medium"], index = 2)
 with col2:
-    precision = st.selectbox("Precision", ["float32", "float16"], index = 0)
+    # For this moment only has float16 as option
+    precision = st.selectbox("Precision", ["float16"], index = 0)
+
 
 
 # Run pipeline
