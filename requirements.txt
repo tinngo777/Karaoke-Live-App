@@ -8,3 +8,4 @@ faster-whisper>=1.0.3
 demucs>=4.0.0
 nvidia-cublas-cu12>=12.6.0; platform_system == "Linux"
 nvidia-cudnn-cu12>=9.5.0; platform_system == "Linux"
+torchcodec

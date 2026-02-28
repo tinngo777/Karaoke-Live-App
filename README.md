@@ -19,18 +19,34 @@ You can upload a song, and the app automatically separate the vocals, builds an 
     git clone https://github.com/tinngo777/Karaoke-Live-App.git
 ```
 
-2. Install requirements 
+2. Set up virtual environments 
 ```bash
     cd Karaoke-Live-App
+    python3 -m venv .venv
+```
+
+On Linux/macOS
+```
+    source .venv/bin/activate
+```
+
+On Window
+```
+    .venv\Scripts\activate
+```
+
+3. Install requirements
+```bash
     pip install -r requirements.txt
 ```
 
-3. Run
+4. Run
 ```bash
     streamlit run app.py
 ```
+
 ## Tech Stack / Credits
-- Python 3.10.12
+- Python 3.13.7
 - Streamlit - UI
 - OpenAI Whisper(via faster-whisper) - lyrics transcription
 - Demucs - stems separation
